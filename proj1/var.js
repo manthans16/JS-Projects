@@ -17,9 +17,9 @@ let accountCr = null
 
 console.table( [accountId, accountEmail, accountPassword, accountCity])
 
-console.table( typeof accountId)
-console.table( typeof accountEmail)
-console.table( typeof accountPassword)
-console.table( typeof accountCity)
-console.table( typeof accountLoggedin)
-console.table( typeof accountCr)
+console.log( typeof accountId)
+console.log( typeof accountEmail)
+console.log( typeof accountPassword)
+console.log( typeof accountCity)
+console.log( typeof accountLoggedin)
+console.log( typeof accountCr)
