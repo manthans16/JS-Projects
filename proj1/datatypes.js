@@ -14,7 +14,7 @@ let BigInt = 2n
 console.log(typeof BigInt);
 // String, Number, Boolean, null, undefined, Symbol, BigInt
 
-//Reference (Non Premitive )
+//Reference (Non Premitive Types ) 
 
 //Array, Objects, Functions
 
