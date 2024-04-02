@@ -23,7 +23,7 @@ const herosArr = ["Hulk", "Antman", "Thor" ]
 let nameObj = {
 
     name:"Yash",
-    age:"21"
+    age:"22"
 
 }
 
