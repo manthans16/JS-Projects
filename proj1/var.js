@@ -1,5 +1,5 @@
 const accountId = 101
-let accountEmail 
+let accountEmail = ""
 var accountPassword = "12345"
 accountCity = "Ajmer"
 let accountLoggedin = true
