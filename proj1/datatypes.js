@@ -27,5 +27,48 @@ let nameObj = {
 
 }
 
-console.log(typeof nameObj);
-console.log(typeof herosArr);
+/*
+@manthans16 ➜ /workspaces/JS-Projects (main) $ git config pull.rebase false
+@manthans16 ➜ /workspaces/JS-Projects (main) $ git pull origin main
+*/
+
+// console.log(typeof nameObj);
+// console.log(typeof herosArr);
+
+// Stack (Premitive), Heap (Non-Premitive)
+
+let name = "Yash"
+let name1 = name
+
+console.log(name);
+console.log(name1);
+// Yash
+// Yash
+
+name1 = "Manthan"
+
+console.log(name1);
+console.log(name);
+// Manthan
+// Yash
+
+let details1 = {
+
+    name:"Yash",
+    age:"22q"
+
+}
+
+let details2 = details1
+
+console.log(details1.name);
+console.log(details2.name);
+// Yash
+// Yash
+details2.name = "Manthan"
+
+console.log(details1.name);
+console.log(details2.name);
+
+// Manthan
+// Manthan
